@@ -49,55 +49,9 @@
       </section>
       <!-- One -->
       <section id="one" class="wrapper style2 spotlights">
-        <section>
-          <a href="#" class="image">
-            <img src="images/skopje-bridge.jpg" alt="" data-position="center center" />
-          </a>
-          <div class="content">
-            <div class="inner">
-              <h2>Advocacy</h2>
-              <p>We work to maximise</p>
-              <ul>
-                <li>discretionary expenditure as against mandatory expenditure</li>
-                <li>accountability of budgetary decisionmakers to citizens and taxpayers</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-        <section>
-          <a href="#" class="image">
-            <img src="images/open-data.jpg" alt="" data-position="top center" />
-          </a>
-          <div class="content">
-            <div class="inner">
-              <h2>Open Data</h2>
-              <p>We shall seek out and publish fiscal data for any countries where this is possible, and ensure it is reusable by individual citizens and civil society groups for holding governments to account.</p>
-<!--              <ul class="actions">
-                <li>
-                  <a href="#" class="button">Learn more</a>
-                </li>
-              </ul> -->
-            </div>
-          </div>
-        </section>
-        <section>
-          <a href="#" class="image">
-            <img src="images/pacioli.jpg" alt="" data-position="25% 25%" />
-          </a>
-          <div class="content">
-            <div class="inner">
-              <h2>Research</h2>
-              <p>Our signature CFD Country Reports will be updated on a
-              regular basis in collaboration with national civil
-              society partners.</p>
-<!--              <ul class="actions">
-                <li>
-                  <a href="#" class="button">Learn more</a>
-                </li>
-              </ul> -->
-            </div>
-          </div>
-        </section>
+        {{# themes }}
+        {{> include/_theme }}
+        {{/ themes }}
       </section>
       <!-- Two -->
       <section id="two" class="wrapper style3 fade-up">
