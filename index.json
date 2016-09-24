@@ -24,19 +24,19 @@
     ],
     "themes": [
         {
-            "picture_url": "images/skopje-bridge.jpg",
+            "picture_url": "/images/skopje-bridge.jpg",
             "alt": "natural CFD habitat",
             "name": "Advocacy",
             "description": "<p>We work to maximise</p><ul><li>discretionary expenditure as against mandatory expenditure</li><li>accountability of budgetary decisionmakers to citizens and taxpayers</li></ul>"
         },
         {
-            "picture_url": "images/open-data.jpg",
+            "picture_url": "/images/open-data.jpg",
             "alt": "for the back of any discerning person's laptop",
             "name": "Open Data",
             "description": "We shall seek out and publish fiscal data for any countries where this is possible, and ensure it is reusable by individual citizens and civil society groups for holding governments to account."
         },
         {
-            "picture_url": "images/pacioli.jpg",
+            "picture_url": "/images/pacioli.jpg",
             "alt": "was double-entry a discovery or an invention",
             "name": "Research",
             "description": "Our signature CFD Country Reports will be updated on a regular basis in collaboration with national civil society partners."
