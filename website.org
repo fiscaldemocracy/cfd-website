@@ -1,0 +1,11 @@
+* DONE autodeploy on push
+* TODO convert into some kind of templating thing
+* TODO fix the 405 error
+* TODO work out how to do i18n
+** german
+** dutch
+** slovenian
+* TODO open up to rest of board
+* TODO google analytics
+* TODO TLS  / let's encrypt
+* TODO own vm
