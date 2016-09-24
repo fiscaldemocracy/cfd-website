@@ -18,4 +18,4 @@ trap cleanup EXIT
 cd $dir
 mustache /dev/null $filename > $temp
 mv -f -- $temp $target
-rm -f -- $source
+rm -f -- $filename
