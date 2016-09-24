@@ -31,3 +31,6 @@ cd $dir
 mustache $args $filename > $temp
 mv -f -- $temp $target
 rm -f -- $filename
+if [ -f $args ]; then
+  rm -f -- $args
+fi
