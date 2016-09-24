@@ -28,6 +28,7 @@ get_varfile () {
 args=$(get_varfile)
 
 cd $dir
+# rm -f -- $target
 mustache $args $filename > $temp
 mv -f -- $temp $target
 rm -f -- $filename
