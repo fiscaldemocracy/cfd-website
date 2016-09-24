@@ -1,22 +1,7 @@
 <!DOCTYPE HTML>
 <!-- template CC-BY licensed from html5up -->
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]>
-        <script src="assets/js/ie/html5shiv.js">
-        </script>
-        <![endif]-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]>
-        <link rel="stylesheet" href="assets/css/ie9.css" />
-        <![endif]-->
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="assets/css/ie8.css" />
-        <![endif]-->
-  </head>
+  {{> include/_head }}
   <body>
     <!-- Sidebar -->
     <section id="sidebar">
@@ -223,16 +208,7 @@
         </div>
       </section>
     </div>
-    <!-- Footer -->
-    <footer id="footer" class="wrapper style1-alt">
-      <div class="inner">
-        <ul class="menu">
-          <li>&copy; Centre for Fiscal Democracy. Some rights reserved.</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    {{> include/_footer }}
     <!-- Scripts -->
     <script src="assets/js/jquery.min.js">
     </script>
