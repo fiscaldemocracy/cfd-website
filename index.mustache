@@ -104,36 +104,9 @@
         <div class="inner">
           <h2>What we do</h2>
           <div class="features">
-            <section>
-              <span class="icon major fa-code">
-              </span>
-              <h3>Country reports</h3>
-              <p>We publish original research on fiscal democracy in countries around the world.</p>
-            </section>
-            <section>
-              <span class="icon major fa-lock">
-              </span>
-              <h3>Software</h3>
-              <p>We help develop practical software enabling access to and understanding of public expenditure.</p>
-            </section>
-            <section>
-              <span class="icon major fa-cog">
-              </span>
-              <h3>Communities</h3>
-              <p>We work with individuals and civil society organisations to promote and monitor fiscal transparency in given areas.</p>
-            </section>
-            <section>
-              <span class="icon major fa-desktop">
-              </span>
-              <h3>Standards</h3>
-              <p>We participate constructively in the creation and maintenance of open standards enabling better accessibility and reuse of fiscal data.</p>
-            </section>
-          </div>
-<!--          <ul class="actions">
-            <li>
-              <a href="#" class="button">Learn more</a>
-            </li>
-          </ul> -->
+            {{# actions }}
+            {{> include/_action }}
+            {{/ actions }}
         </div>
       </section>
       <!-- Three -->
