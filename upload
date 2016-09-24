@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cd $(dirname $0)
-rsync -avP \
-      --exclude=.git \
-      . pling:/var/websites/fiscaldemocracy.org/www/htdocs
