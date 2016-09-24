@@ -3,8 +3,10 @@
   Some content
 
  {{ welcome }}
+ <table>
  {{# directors }}
-   {{name}} {{age}}
+ {{> include/_director }}
  {{/ directors }}
+ </table>
  </body>
 </html>
