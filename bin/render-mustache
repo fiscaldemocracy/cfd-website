@@ -6,10 +6,12 @@ source=$1
 dir=$(dirname $source)
 filename=$(basename $source)
 target=$(basename $source .mustache).html
+
 temp=$(tempfile)
+chmod 644 $temp
 
 cleanup () {
-  local $ev=$?
+  local ev=$?
   rm -f -- $temp
   exit $ev
 }
