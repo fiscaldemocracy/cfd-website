@@ -1,9 +1,0 @@
-{
-  "directors": [
-    { "name": "Vitus", "age": 24 },
-    { "name": "Martin", "age": 339 },
-    { "name": "Bernard", "age": 27 }
-  ],
-  "welcome": "Wilkommen!"
-}
-
