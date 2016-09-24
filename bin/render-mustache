@@ -17,7 +17,18 @@ cleanup () {
 }
 trap cleanup EXIT
 
+get_varfile () {
+  local var_file=$(basename $source .mustache).json
+  if [ -f "$var_file" ]; then
+    echo $var_file
+  else
+    echo /dev/null
+  fi
+}
+
+args=$(get_varfile)
+
 cd $dir
-mustache /dev/null $filename > $temp
+mustache $args $filename > $temp
 mv -f -- $temp $target
 rm -f -- $filename
