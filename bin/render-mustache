@@ -4,6 +4,7 @@ set -eu
 
 source=$1
 dir=$(dirname $source)
+filename=$(basename $source)
 target=$(basename $source .mustache).html
 temp=$(tempfile)
 
@@ -15,6 +16,6 @@ cleanup () {
 trap cleanup EXIT
 
 cd $dir
-mustache /dev/null $source > $temp
+mustache /dev/null $filename > $temp
 mv -f -- $temp $target
 rm -f -- $source
