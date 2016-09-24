@@ -5,6 +5,7 @@
 ** german
 ** dutch
 ** slovenian
+** bcs
 * TODO open up to rest of board
 * TODO google analytics
 * TODO TLS  / let's encrypt
