@@ -1,0 +1,45 @@
+{
+    "title": "Centre for Fiscal Democracy",
+    "actions": [
+        {
+            "icon": "fa-pie-chart",
+            "name": "Country reports",
+            "description": "We publish original research on fiscal democracy in countries around the world."
+        },
+        {
+            "icon": "fa-code",
+            "name": "Software",
+            "description": "We help develop practical software enabling access to and understanding of public expenditure."
+        },
+        {
+            "icon": "fa-users",
+            "name": "Communities",
+            "description": "We work with individuals and civil society organisations to promote and monitor fiscal transparency in given areas."
+        },
+        {
+            "icon": "fa-plug",
+            "name": "Standards",
+            "description": "We participate constructively in the creation and maintenance of open standards enabling better accessibility and reuse of fiscal data."
+        }
+    ],
+    "themes": [
+        {
+            "picture_url": "/images/skopje-most.jpg",
+            "alt": "natural CFD habitat",
+            "name": "Advocacy",
+            "description": "<p>We work to maximise</p><ul><li>discretionary expenditure as against mandatory expenditure</li><li>accountability of budgetary decisionmakers to citizens and taxpayers</li></ul>"
+        },
+        {
+            "picture_url": "/images/open-data.jpg",
+            "alt": "for the back of any discerning person's laptop",
+            "name": "Open Data",
+            "description": "We shall seek out and publish fiscal data for any countries where this is possible, and ensure it is reusable by individual citizens and civil society groups for holding governments to account."
+        },
+        {
+            "picture_url": "/images/pacioli.jpg",
+            "alt": "was double-entry a discovery or an invention",
+            "name": "Research",
+            "description": "Our signature CFD Country Reports will be updated on a regular basis in collaboration with national civil society partners."
+        }
+    ]
+}

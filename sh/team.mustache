@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+  {{> include/_head }}
+  <body>
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Intro -->
+      <section id="intro" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h1>CFD Team: Board of Directors</h1>
+        </div>
+      </section>
+      <!-- One -->
+      <section id="one" class="wrapper style2 spotlights">
+        {{# directors }}
+        {{> include/_director }}
+        {{/ directors }}
+      </section>
+      <section id="ac" class="wrapper style1 fade-up">
+        <div class="inner">
+          <h1>CFD Team: Advisory Council</h1>
+        </div>
+      </section>
+      <section id="two" class="wrapper style2 spotlights">
+        <section>
+          <a href="#" class="image">
+            <img src="images/advisory-council.png"
+                 alt="" data-position="25% 25%" />
+          </a>
+          <div class="content">
+            <div class="inner">
+              <p>We are delighted that
+                <a href="https://dominiquelazanski.com/">Dominique Lazanski</a>
+                (formerly of the Taxpayers' Alliance) and
+                <a href="http://brough.io/">Mark Brough</a>
+                (World Bank, formerly of Publish What You Fund)
+                have agreed to serve as our advisors.</p>
+              <p>We hope to have a more recent photograph of them soon ;-)</p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  {{> include/_footer }}
+  {{> include/_scripts }}
+  </body>
+</html>
