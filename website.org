@@ -1,5 +1,5 @@
 * DONE autodeploy on push
-* TODO convert into some kind of templating thing
+* DONE convert into some kind of templating thing
 * TODO fix the 405 error
 * TODO work out how to do i18n
 ** german
