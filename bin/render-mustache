@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eux
+set -eu
 
 source=$1
 dir=$(dirname $source)
@@ -25,10 +25,9 @@ get_varfile () {
   fi
 }
 
-args=$(get_varfile)
-
 cd $dir
-# rm -f -- $target
+
+args=$(get_varfile)
 mustache $args $filename > $temp
 mv -f -- $temp $target
 rm -f -- $filename
