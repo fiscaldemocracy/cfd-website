@@ -3,3 +3,4 @@
 set -eu
 touch /tmp/fd.$$
 
+# should be staged
