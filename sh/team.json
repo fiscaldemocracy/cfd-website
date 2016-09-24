@@ -2,17 +2,17 @@
     "title": "Centre for Fiscal Democracy: Our Team",
     "directors": [
         {
-            "name": "витус фландер ван реи",
+            "name": "Витус Фландер ван Реи",
             "picture_url": "/images/vitus-flander-van-rij.png",
             "bio": "Vitus is currently a PhD candidate at the London School of Economics. He recently completed his MA in Political Economy at Kings College London, titled ``Measuring Fiscal Democracy in the European Union, 1995-2014''"
         },
         {
-            "name": "мартин киган",
+            "name": "Мартин Киган",
             "picture_url": "/images/martin-keegan.png",
             "bio": "Martin is a software engineer with extensive experience in the application of open data tools and technologies to fiscal accountability. He co-founded the Open Knowledge Foundation, led its OpenSpending project and has delivered projects for Publish What You Fund, Rewired State and the Freedom Association. He holds an MA from the University of Cambridge."
         },
         {
-            "name": "бернард фишер",
+            "name": "Бернард Фишер",
             "picture_url": "/images/bernard-fischer.png",
             "bio": "Bernard is a public policy consultant in Cambridge; he has worked in economics and finance. He holds an MPhil from the University of Cambridge, having studied at the Centre for Economics and History."
         }
