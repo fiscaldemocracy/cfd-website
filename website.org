@@ -10,3 +10,4 @@
 * TODO google analytics
 * TODO TLS  / let's encrypt
 * TODO own vm
+* TODO get the link rel="alternate" hreflang="en" stuff sorted, also lang=
