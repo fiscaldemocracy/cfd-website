@@ -2,7 +2,7 @@
     "title": "Centre for Fiscal Democracy",
     "actions": [
         {
-            "icon": "fa-desktop",
+            "icon": "fa-pie-chart",
             "name": "Country reports",
             "description": "We publish original research on fiscal democracy in countries around the world."
         },
@@ -12,12 +12,12 @@
             "description": "We help develop practical software enabling access to and understanding of public expenditure."
         },
         {
-            "icon": "fa-cog",
+            "icon": "fa-users",
             "name": "Communities",
             "description": "We work with individuals and civil society organisations to promote and monitor fiscal transparency in given areas."
         },
         {
-            "icon": "fa-lock",
+            "icon": "fa-plug",
             "name": "Standards",
             "description": "We participate constructively in the creation and maintenance of open standards enabling better accessibility and reuse of fiscal data."
         }
