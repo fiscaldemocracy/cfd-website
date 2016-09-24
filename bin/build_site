@@ -1,6 +1,12 @@
 #!/bin/bash
 
 set -eu
-touch /tmp/fd.$$
 
 # should be staged
+
+cd $(dirname $0)/..
+
+for source in $(find . -type f -name '*.mustache' ! -name '_*.mustache')
+do
+  bin/render-mustache $source
+done
